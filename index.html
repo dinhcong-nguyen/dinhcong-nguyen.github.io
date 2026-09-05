@@ -1,61 +1,52 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Dinh Cong NGUYEN</title>
-    <meta name="description" content="website description" />
-    <meta name="keywords" content="website keywords, website keywords" />
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="style/style.css"
-      title="style"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      rel="stylesheet"
-    />
-    <style>
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
+<!DOCTYPE html>
+<html lang="en">
 
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
+<head>
+  <title>Dinh Cong NGUYEN | AI Researcher &amp; Lecturer</title>
+  <meta name="description"
+    content="The academic profile of Dinh Cong NGUYEN, an AI researcher and lecturer working in computer vision, deep learning, and applied AI.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102a43">
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
 
-  <body>
-    <div id="main">
-      <div id="header">
-        <div id="logo">
-          <div id="logo_text">
-            <h1><a href="index.html">Dinh Cong NGUYEN</a></h1>
-            <h2>Personal profile</h2>
-          </div>
-          <div id="logo_image">
-            <img src="photo.JPG" alt="Photo" />
-          </div>
+<body class="page-home">
+  <a class="skip-link" href="#site_content">Skip to content</a>
+
+  <div id="main">
+    <header id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <p class="site-kicker">AI researcher · Lecturer</p>
+          <h1><a href="index.html">Dinh Cong NGUYEN</a></h1>
+          <p class="site-tagline">Computer vision, deep learning &amp; applied AI</p>
         </div>
-        <div id="menubar">
-          <ul id="menu">
-            <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-            <li class="selected"><a href="index.html">Home</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="publication.html">Publications</a></li>
-            <li><a href="honors.html">Honors</a></li>
-            <li><a href="misc.html">Misc</a></li>
-          </ul>
+        <div id="logo_image">
+          <img src="photo.JPG" alt="Portrait of Dinh Cong Nguyen" width="203" height="256">
         </div>
       </div>
-      <div id="site_content">
-        <div id="content">
-          <!-- insert the page content here -->
-          <h1>About me</h1>
-          <p>
+
+      <nav id="menubar" aria-label="Primary navigation">
+        <ul id="menu">
+          <li class="selected">
+            <a href="index.html" aria-current="page">Home</a>
+          </li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="publication.html">Publications</a></li>
+          <li><a href="honors.html">Honors</a></li>
+          <li><a href="misc.html">Misc</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="site_content" tabindex="-1">
+      <div id="content" class="home-grid">
+        <section class="content-card intro-card">
+          <p class="section-kicker">Profile</p>
+          <h2>About me</h2>
+          <p style="max-width: None;">
             AI researcher and lecturer with 10+ years of experience in Computer
             Vision, Artificial Intelligence, and Deep Learning. Ph.D. in
             Computer Science (University of Tours, France, 2020). Head of
@@ -66,11 +57,11 @@
             computer vision, deep learning, natural language processing, and AI
             for healthcare, agriculture, and education.
           </p>
-        </div>
+        </section>
 
-        <div id="content">
-          <!-- insert the page content here -->
-          <h1>Motivation</h1>
+        <section class="content-card">
+          <p class="section-kicker">Purpose</p>
+          <h2>Motivation</h2>
           <p>
             I am passionate about leveraging AI to solve real-world problems and
             improve people's lives. My motivation is to contribute to the
@@ -80,11 +71,11 @@
             positive impact on society and help address some of the most
             pressing challenges we face today.
           </p>
-        </div>
+        </section>
 
-        <div id="content">
-          <!-- insert the page content here -->
-          <h1>Research directions</h1>
+        <section class="content-card">
+          <p class="section-kicker">Focus</p>
+          <h2>Research directions</h2>
           <p>
             My research directions focus on advanced machine learning and
             computer vision techniques, with particular emphasis on zero-shot
@@ -96,33 +87,61 @@
             study optimization methods to improve model efficiency, robustness,
             and generalization across these tasks.
           </p>
-        </div>
-        
-        <div id="content">
-          <!-- insert the page content here -->
-          <h1>Contact</h1>
-          <div id="content">
-            <ul>
-              <li>
+        </section>
+
+        <section class="content-card contact-card">
+          <p class="section-kicker">Connect</p>
+          <h2>Contact</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-icon" aria-hidden="true">
                 <i class="fas fa-envelope"></i>
+              </span>
+              <span>
+                <span class="contact-label">Email</span>
                 <a href="mailto:nguyendinhcong@hdu.edu.vn">
                   nguyendinhcong@hdu.edu.vn
                 </a>
-              </li>
-              <li><i class="fas fa-phone"></i> (+84) 973 705 593</li>
-              <li><i class="fas fa-map-marker-alt"></i> Thanh Hoa, Viet Nam</li>
-              <li>
-                <a
-                  href="https://scholar.google.com/citations?user=vSC8hHMAAAAJ&hl=en"
-                >
-                  <i class="fab fa-google"></i> Dinh Cong Nguyen
+              </span>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <i class="fas fa-phone"></i>
+              </span>
+              <span>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+84973705593">(+84)&nbsp;973&nbsp;705&nbsp;593</a>
+              </span>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              <span>
+                <span class="contact-label">Location</span>
+                Thanh Hoa, Viet Nam
+              </span>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <i class="fab fa-google"></i>
+              </span>
+              <span>
+                <span class="contact-label">Google Scholar</span>
+                <a href="https://scholar.google.com/citations?user=vSC8hHMAAAAJ&amp;hl=en">
+                  Dinh Cong Nguyen
                 </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+              </span>
+            </li>
+          </ul>
+        </section>
       </div>
-      <div id="footer"></div>
-    </div>
-  </body>
+    </main>
+
+    <footer id="footer">
+      <p>Research · Teaching · Applied AI</p>
+    </footer>
+  </div>
+</body>
+
 </html>

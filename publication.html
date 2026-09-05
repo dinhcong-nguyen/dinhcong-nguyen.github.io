@@ -1,65 +1,79 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Dinh Cong NGUYEN</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <title>Publications | Dinh Cong NGUYEN</title>
+  <meta name="description"
+    content="Books, journal articles, conference papers, and research publications by Dinh Cong NGUYEN.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102a43">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body>
+<body class="page-publications">
+  <a class="skip-link" href="#site_content">Skip to content</a>
+
   <div id="main">
-    <div id="header">
+    <header id="header">
       <div id="logo">
         <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">Dinh Cong NGUYEN</a></h1>
-          <h2>Personal profile</h2>
+          <p class="site-kicker">AI researcher · Lecturer</p>
+          <p class="site-title"><a href="index.html">Dinh Cong NGUYEN</a></p>
+          <p class="site-tagline">Computer vision, deep learning &amp; applied AI</p>
         </div>
         <div id="logo_image">
-          <img src="photo.JPG" alt="Photo" />
+          <img src="photo.JPG" alt="Portrait of Dinh Cong Nguyen" width="203" height="256">
         </div>
       </div>
-      <div id="menubar">
+
+      <nav id="menubar" aria-label="Primary navigation">
         <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.html">Home</a></li>
           <li><a href="cv.html">CV</a></li>
           <li class="selected">
-            <a href="publication.html">Publications</a>
+            <a href="publication.html" aria-current="page">Publications</a>
           </li>
           <li><a href="honors.html">Honors</a></li>
           <li><a href="misc.html">Misc</a></li>
         </ul>
-      </div>
-    </div>
-    <div id="site_content">
+      </nav>
+    </header>
+
+    <main id="site_content" tabindex="-1">
+      <header class="page-heading">
+        <p class="section-kicker">Research output</p>
+        <h1>Publications</h1>
+        <p>Books, journal articles, and conference contributions.</p>
+      </header>
+
       <div id="content">
-        <section>
+        <section class="content-card">
           <h2>Published books</h2>
-          <ol>
-            <li>
+          <ol class="book-list">
+            <li lang="vi">
               <strong>Nguyễn Đình Công (Chủ biên)</strong>, Phạm Thế Anh,
               "Giáo Trình Lý Thuyết Mạng Nơron Nhân Tạo Và Ứng Dụng". NXB Khoa
               học và kỹ thuật - 2024.
             </li>
-            <li>
+            <li lang="vi">
               <strong>Nguyễn Đình Công (Chủ biên)</strong>, Trịnh Thị Phú,
               Hoàng Văn Hùng, "Giáo trình Lập trình hướng đối tượng với Java".
               NXB Khoa học công nghệ và truyền thông - 2025.
             </li>
           </ol>
         </section>
-        <section>
-          <h2>Publications</h2>
-          <ol>
+        <section class="content-card">
+          <h2>Research publications &amp; thesis</h2>
+          <ol class="publication-list">
             <li>
-              Hong, L. T., Vu, D. D., Khanh, T. N., <strong>Nguyen, D. C.</strong>, & Vu, D. M. (2026). A stage-based formulation and
+              Hong, L. T., Vu, D. D., Khanh, T. N., <strong>Nguyen, D. C.</strong>, &amp; Vu, D. M. (2026). A
+              stage-based formulation and
               meta-heuristic algorithm for the revisit Flying SideKick Traveling Salesman Problem. Transportation
-              Research Part C Emerging Technologies, 192, 105906. https://doi.org/10.1016/j.trc.2026.105906
+              Research Part C Emerging Technologies, 192, 105906.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1016/j.trc.2026.105906">DOI: 10.1016/j.trc.2026.105906</a>
+              </p>
             </li>
             <li>
               Le, T.T., Tran, H.C., <strong>Nguyen, D.C.</strong> (2026).
@@ -68,35 +82,52 @@
               Thai, V.D., Son, L.H., Van Nui, N. (eds) Advances in Information
               and Communication Technology. ICTA 2025. Lecture Notes in
               Networks and Systems, vol 1832. Springer, Cham.
-              https://doi.org/10.1007/978-3-032-18159-6_29
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-3-032-18159-6_29">DOI: 10.1007/978-3-032-18159-6_29</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong>, Nguyen, H.L. Enhancing Infrared
               Small Target Detection: A Multi-scale Feature Integration
               Approach with an Optimized Combined Loss Function. SN COMPUT.
               SCI. 7, 192 (2026).
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/s42979-026-04779-y">DOI: 10.1007/s42979-026-04779-y</a>
+              </p>
             </li>
             <li>
-              <strong>Nguyen, D. C.</strong>, & Tong, D. D. (2026). An
+              <strong>Nguyen, D. C.</strong>, &amp; Tong, D. D. (2026). An
               efficient boundary-aware adversarial model for polyp
               segmentation in colonoscopy images. Biomedical Signal Processing
               and Control, 113, 109231.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1016/j.bspc.2025.109231">DOI: 10.1016/j.bspc.2025.109231</a>
+              </p>
             </li>
             <li>
-              <strong>Nguyen, D. C.</strong>, & Nguyen, T. C. (2025).
+              <strong>Nguyen, D. C.</strong>, &amp; Nguyen, T. C. (2025).
               AI-Powered Edge-Based Safety Monitoring System for Power
               Transmission Corridors: A Case Study in Vietnam. Computer
               Networks, 111881.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1016/j.comnet.2025.111881">DOI: 10.1016/j.comnet.2025.111881</a>
+              </p>
             </li>
             <li>
-              <strong>Nguyen, D. C.</strong>, & Nguyen, H. L. (2024).
+              <strong>Nguyen, D. C.</strong>, &amp; Nguyen, H. L. (2024).
               PolyPooling: An accurate polyp segmentation from colonoscopy
               images. Biomedical Signal Processing and Control, 92, 105979.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1016/j.bspc.2024.105979">DOI: 10.1016/j.bspc.2024.105979</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong>, Nguyen, H. L. (2024). ColonNeXt:
               Fully Convolutional Attention for Polyp Segmentation. Journal of
               Imaging Informatics in Medicine, 1-16.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/s10278-024-01342-0">DOI: 10.1007/s10278-024-01342-0</a>
+              </p>
             </li>
             <li>
               Hoang, A. C., Nguyen, H. L, Le, T. T., Phan M. P., Pham, T. A.
@@ -104,31 +135,46 @@
               Vietnamese Image Captioning. In 11th EAI International
               Conference on Industrial Networks and Intelligent Systems
               (INISCOM).
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-3-032-02362-9_14">DOI: 10.1007/978-3-032-02362-9_14</a>
+              </p>
             </li>
             <li>
-              <strong>Nguyen, D. C.</strong>, & Mai, V. H. (2024, November).
+              <strong>Nguyen, D. C.</strong>, &amp; Mai, V. H. (2024, November).
               Polyp Segmentation Based on Transformer. In International
               Conference on Advances in Information and Communication
               Technology (pp. 34-45). Cham: Springer Nature Switzerland.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-3-031-80943-9_4">DOI: 10.1007/978-3-031-80943-9_4</a>
+              </p>
             </li>
             <li>
               Tran, N. K., Vu, T. D., Nguyen, T. H., Pham, D. P., Hoang, B.
-              M., Le, T. H., ... , <strong>Nguyen, D. C.</strong> & Vu, D. M.
+              M., Le, T. H., ... , <strong>Nguyen, D. C.</strong> &amp; Vu, D. M.
               (2024, July). Metaheuristic for a Flight Service Scheduling
               Problem in Viet Nam. In Conference on Information Technology and
               its Applications (pp. 111-123). Cham: Springer Nature
               Switzerland.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-3-031-74127-2_10">DOI: 10.1007/978-3-031-74127-2_10</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong>, &amp; Nguyen, H. L. (2024).
               PolyPooling: An accurate polyp segmentation from colonoscopy
               images. Biomedical Signal Processing and Control, 92, 105979.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1016/j.bspc.2024.105979">DOI: 10.1016/j.bspc.2024.105979</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong>, Le, N. T., Van Hoa Mai, T. Q.
-              N., & Nguyen, V. Q. (2024). A Cascade Methodology to Evaluate
+              N., &amp; Nguyen, V. Q. (2024). A Cascade Methodology to Evaluate
               Black-Box Recognition Systems Based on a Copycat Algorithm.
               Proceedings Copyright, 662, 670.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.5220/0012402500003660">DOI: 10.5220/0012402500003660</a>
+              </p>
             </li>
             <li>
               Hoang, A. C., <strong>Nguyen, D. C.</strong>, &amp; Nguyen, H.
@@ -136,22 +182,31 @@
               Encoders for Image Captioning. In 2023 12th International
               Conference on Control, Automation and Information Sciences
               (ICCAIS) (pp. 212-217).
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1109/ICCAIS59597.2023.10382370">DOI: 10.1109/ICCAIS59597.2023.10382370</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong>, Tam, L. N., Phan, D. H., Nguyen,
-              T. C., Duy, D. N., & Xuan, Q. N. (2023, July). Using drone and
+              T. C., Duy, D. N., &amp; Xuan, Q. N. (2023, July). Using drone and
               AI application for power transmission line inspection and
               maintenance: A case study in Vietnam. In Science and information
               conference (pp. 684-698). Cham: Springer Nature Switzerland.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-3-031-37717-4_44">DOI: 10.1007/978-3-031-37717-4_44</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong>, Le, N. D., Nguyen, T. C.,
-              Nguyen, T. Q., & Nguyen, V. Q. (2022). An approach to evaluate
+              Nguyen, T. Q., &amp; Nguyen, V. Q. (2022). An approach to evaluate
               the reliability of the face recognition process using
               adversarial samples generated by deep neural networks. In
               Intelligent Systems and Networks: Selected Articles from ICISN
               2022, Vietnam (pp. 237-245). Singapore: Springer Nature
               Singapore.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-981-19-3394-3_28">DOI: 10.1007/978-981-19-3394-3_28</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong>, Le, V. N., Nguyen, H. L., Tran,
@@ -160,62 +215,90 @@
               Intelligent Systems and Networks: Selected Articles from ICISN
               2022, Vietnam (pp. 221-229). Singapore: Springer Nature
               Singapore.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-981-19-3394-3_26">DOI: 10.1007/978-981-19-3394-3_26</a>
+              </p>
             </li>
             <li>
               Nguyen, H. L., Tran, T. H., Le Thi, H. H., &amp;
               <strong>Nguyen, D. C.</strong> (2022). From a Proposed CNN Model
               to a Real-World Application in Rice Disease Classification. In
               RICE (pp. 177-182).
+              <p class="publication-actions">
+                <a href="https://doi.org/10.15439/2022R34">DOI: 10.15439/2022R34</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong>, Nguyen, T. C., Phan, D. H., Le,
-              N. T., & Tran, V. V. (2021, April). Multi-object detection by
+              N. T., &amp; Tran, V. V. (2021, April). Multi-object detection by
               using CNN for power transmission line inspection. In
               International Conference on Industrial Networks and Intelligent
               Systems (pp. 337-347). Cham: Springer International Publishing.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-3-030-77424-0_28">DOI: 10.1007/978-3-030-77424-0_28</a>
+              </p>
             </li>
             <li>
-              Hoang, V. Q., & <strong>Nguyen, D. C.</strong> (2021, March).
+              Hoang, V. Q., &amp; <strong>Nguyen, D. C.</strong> (2021, March).
               Detecting leftover food and the shrimp for estimating of the
               shrimp body length based on CNN. In The International Conference
-              on Intelligent Systems & Networks (pp. 239-247). Singapore:
+              on Intelligent Systems &amp; Networks (pp. 239-247). Singapore:
               Springer Singapore.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/978-981-16-2094-2_30">DOI: 10.1007/978-981-16-2094-2_30</a>
+              </p>
             </li>
             <li>
-              <strong>Nguyen, D. C.</strong>, Delalandre, M., Conte, D., &
+              <strong>Nguyen, D. C.</strong>, Delalandre, M., Conte, D., &amp;
               Pham, T. A. (2021). Fast RT-LoG operator for scene text
               detection. Journal of Real-Time Image Processing, 18(1), 19-36.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.1007/s11554-020-00942-7">DOI: 10.1007/s11554-020-00942-7</a>
+              </p>
             </li>
             <li>
               <strong>Nguyen, D. C.</strong> (2020). Real-time LoG-based
               operators for scene texte detection (Doctoral dissertation,
               Tours).
+              <p class="publication-actions">
+                <a href="https://doi.org/10.70675/2ff275eez7258z4c62zb545z5d5c1efb5125">DOI: 10.70675/2ff275eez7258z4c62zb545z5d5c1efb5125</a>
+              </p>
             </li>
             <li>
-              <strong>Nguyen, D. C.</strong>, Delalandre, M., & Conte, D.
+              <strong>Nguyen, D. C.</strong>, Delalandre, M., &amp; Conte, D.
               (2020). Fast scene text detection with RT-LoG operator and CNN.
               In 15th International Conference on Computer Vision Theory and
               Applications.
+              <p class="publication-actions">
+                <a href="https://doi.org/10.5220/0008944502370245">DOI: 10.5220/0008944502370245</a>
+              </p>
             </li>
             <li>
-              <strong>Nguyen, D. C.</strong>, Delalandre, M., & Conte, D.
+              <strong>Nguyen, D. C.</strong>, Delalandre, M., &amp; Conte, D.
               (2019, February). Performance evaluation of real-time and
               scale-invariant LoG operators for text detection. In 14th
               International Joint Conference on Computer Vision, Imaging and
               Computer Graphics Theory and Applications (VISAPP 2019).
+              <p class="publication-actions">
+                <a href="https://doi.org/10.5220/0007361503440353">DOI: 10.5220/0007361503440353</a>
+              </p>
             </li>
             <li>
-              <strong>Nguyen, D. C.</strong>, Delalandre, M., Conte, D., &
+              <strong>Nguyen, D. C.</strong>, Delalandre, M., Conte, D., &amp;
               Pham, T. A. (2018, June). A Review of Fast Edge Detectors for
               Real-Time Document Capture. In Symposium International
               Francophone sur l'Ecrit et le Document (SIFED).
+              <!-- <p class="publication-actions doi-unavailable">DOI not assigned</p> -->
             </li>
           </ol>
         </section>
       </div>
-    </div>
+    </main>
+
+    <footer id="footer">
+      <p>Research · Teaching · Applied AI</p>
+    </footer>
   </div>
-  <div id="footer"></div>
 </body>
 
 </html>

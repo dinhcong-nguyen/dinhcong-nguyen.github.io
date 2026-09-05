@@ -1,46 +1,60 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Dinh Cong NGUYEN</title>
-    <meta name="description" content="website description" />
-    <meta name="keywords" content="website keywords, website keywords" />
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="style/style.css"
-      title="style"
-    />
+    <title>Curriculum Vitae | Dinh Cong NGUYEN</title>
+    <meta
+      name="description"
+      content="Education and academic experience of AI researcher and lecturer Dinh Cong NGUYEN."
+    >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#102a43">
+    <link rel="stylesheet" href="style/style.css">
   </head>
 
-  <body>
+  <body class="page-cv">
+    <a class="skip-link" href="#site_content">Skip to content</a>
+
     <div id="main">
-      <div id="header">
+      <header id="header">
         <div id="logo">
           <div id="logo_text">
-            <!-- class="logo_colour", allows you to change the colour of the text -->
-            <h1><a href="index.html">Dinh Cong NGUYEN</a></h1>
-            <h2>Personal profile</h2>
+            <p class="site-kicker">AI researcher · Lecturer</p>
+            <p class="site-title"><a href="index.html">Dinh Cong NGUYEN</a></p>
+            <p class="site-tagline">Computer vision, deep learning &amp; applied AI</p>
           </div>
           <div id="logo_image">
-            <img src="photo.JPG" alt="Photo" />
+            <img
+              src="photo.JPG"
+              alt="Portrait of Dinh Cong Nguyen"
+              width="203"
+              height="256"
+            >
           </div>
         </div>
-        <div id="menubar">
+
+        <nav id="menubar" aria-label="Primary navigation">
           <ul id="menu">
-            <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
             <li><a href="index.html">Home</a></li>
-            <li class="selected"><a href="cv.html">CV</a></li>
+            <li class="selected">
+              <a href="cv.html" aria-current="page">CV</a>
+            </li>
             <li><a href="publication.html">Publications</a></li>
             <li><a href="honors.html">Honors</a></li>
             <li><a href="misc.html">Misc</a></li>
           </ul>
-        </div>
-      </div>
-      <div id="site_content">
-        <main id="content">
-          <section class="cv-section">
+        </nav>
+      </header>
+
+      <main id="site_content" tabindex="-1">
+        <header class="page-heading">
+          <p class="section-kicker">Curriculum vitae</p>
+          <h1>Experience &amp; education</h1>
+          <p>Academic training, teaching, research, and leadership experience.</p>
+        </header>
+
+        <div id="content">
+          <section class="content-card cv-section">
             <h2>Education</h2>
 
             <article class="edu-item">
@@ -85,8 +99,8 @@
             </article>
           </section>
 
-          <section class="cv-section">
-            <h2>Academic Experience</h2>
+          <section class="content-card cv-section">
+            <h2>Academic experience</h2>
 
             <article class="exp-item">
               <header class="item-header">
@@ -142,15 +156,18 @@
                   and deploy AI-driven decision support systems.
                 </li>
                 <li>
-                  Innovation: Contributed to R&D activities linking academia
+                  Innovation: Contributed to R&amp;D activities linking academia
                   and industry, ensuring practical adoption of research outputs.
                 </li>
               </ul>
             </article>
           </section>
-        </main>
-      </div>
-      <div id="footer"></div>
+        </div>
+      </main>
+
+      <footer id="footer">
+        <p>Research · Teaching · Applied AI</p>
+      </footer>
     </div>
   </body>
 </html>
