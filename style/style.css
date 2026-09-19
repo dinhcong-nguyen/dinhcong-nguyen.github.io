@@ -621,6 +621,12 @@ ul#menu a[aria-current="page"] {
   line-height: 1.5;
 }
 
+.publication-badge--conference {
+  color: #7c3d11;
+  background: #fff4dd;
+  border-color: #f6dca1;
+}
+
 .publication-actions {
   margin: 0.4rem 0 0;
 }
